@@ -1,0 +1,4 @@
+npm install i install all the requried 
+
+backend nodemon server.js
+frontend servercode npm start
