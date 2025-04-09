@@ -1,0 +1,74 @@
+import React from 'react'
+import SweetsName from '../SweetShops/SweetsName'
+import Layout from '../../../Components/Layout'
+import './sweetname.css'
+
+export default function Vipra() {
+  return (
+    <>
+      <Layout title='Vipra Sweet Shop - WanderHub' />
+      <SweetsName shopname="Vipra Sweet Shop" phonenumber="9448547510"
+        src1="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/avarabele_halwa.jpg"
+        sweetname1="AvaraBele Halwa" sweetprice1="80/kg"
+
+        src2="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/jalebi.jpg"
+        sweetname2="Jalebi" sweetprice2="90/kg"
+
+        src3="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/holige.jpg"
+        sweetname3="Holige" sweetprice3="10/pcs"
+
+        src4="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/ladoo.jpg"
+        sweetname4="Laddoo" sweetprice4="50/kg"
+
+        src5="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/myspsk.jpg"
+        sweetname5="Mysore Palk" sweetprice5="80/kg"
+
+        src6="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/pedha.jpg"
+        sweetname6="Pedha" sweetprice6="100/kg"
+
+        src7="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/gulab-jamoon.jpg"
+        sweetname7="Gulab Jamoon" sweetprice7="100/kg"
+
+        src8="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/rabdi.jpg"
+        sweetname8="Rabdi" sweetprice8="100/kg"
+
+        src9="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/chiroti.jpg"
+        sweetname9="Chiroti" sweetprice9="40/kg"
+
+        src10="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/rava_unde.jpg"
+        sweetname10="Rava Unde" sweetprice10="90/kg"
+
+        src11="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/khasi_halwa.jpg"
+        sweetname11="Khasi Halwa" sweetprice11="120/kg"
+
+        src12="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/belgum_kunda.jpg"
+        sweetname12="Belagaum Kunda" sweetprice12="200/kg"
+
+        src13="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/obbattu.jpg"
+        sweetname13="Obbattu" sweetprice13="35/kg"
+
+        src14="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/dharwad_peda.jpg"
+        sweetname14="Dharwad Peda" sweetprice14="35/kg"
+
+        src15="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/karjikai.jpg"
+        sweetname15="Karjikai" sweetprice15="40/kg"
+
+        src16="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/kesari_bath.png"
+        sweetname16="Kesari Baath" sweetprice16="78/kg"
+
+        src17="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/saat.jpg"
+        sweetname17="Saat(Sugar Cap)" sweetprice17="75/kg"
+
+        src18="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/vark.jpg"
+        sweetname18="Vark(Silver Plate Sweet)" sweetprice18="10/pcs"
+
+        src19="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/saonpapdi.jpg"
+        sweetname19="Soan Papdi" sweetprice19="120/kg"
+
+        src20="https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/before_loggedin/sweets/ladagi_unde.png"
+        sweetname20="Ladagi Laddoo" sweetprice20="25/kg"
+
+      />
+    </>
+  )
+}

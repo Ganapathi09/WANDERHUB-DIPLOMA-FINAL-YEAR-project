@@ -1,0 +1,123 @@
+.tourist-section-block {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    justify-items: center;
+    scroll-behavior: smooth;
+    transition: tourist-section-block 1s ease-in-out;
+}
+
+#item h3 {
+    color: aqua;
+    -webkit-text-stroke: 1px navy;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .tourist-section-block {
+        background-image: url('https://raw.githubusercontent.com/<Enter the github username>/ideal-pix/main/after_loggedin/Tourism/mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: block;
+        justify-items: center;
+        scroll-behavior: smooth;
+        transition: tourist-section-block 1s ease-in-out;
+    }
+}
+
+li:hover,
+a:hover {
+    color: whitesmoke;
+}
+
+#item {
+    display: grid;
+    justify-items: center;
+}
+
+.tourist-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#tourist-intro {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.tourist-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tourist-box {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    border: 2px solid purple;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    transition: transform 0.3s ease;
+}
+
+.tourist-box:hover {
+    transform: scale(1.2);
+}
+
+.img-map {
+    display: block;
+    float: left;
+    height: 20%;
+    width: 100%;
+    float: left;
+}
+
+.picinfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-shrink: unset;
+}
+
+.placeinfo {
+    margin-right: 1rem;
+    text-align: justify;
+    display: block;
+    float: right;
+    height: 20%;
+    width: 100%;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.linkers:hover {
+    color: navy;
+}

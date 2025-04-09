@@ -1,0 +1,86 @@
+.main h3 {
+    text-align: center;
+    color: navy;
+    -webkit-text-stroke: 2px orange;
+}
+
+.slides {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 20vh;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+}
+
+.about .faq-intro h3 {
+    color: aqua;
+    -webkit-text-stroke: 1px navy;
+    text-align: center;
+}
+
+.faq-intro {
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+}
+
+.information {
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    color: black;
+    -webkit-text-stroke: 1px black;
+    min-width: 25%;
+    width: fit-content;
+}
+
+.bg-info {
+    color: black;
+    border: solid whitesmoke;
+    border-radius: 3%;
+    margin: auto 2%;
+}
+
+@media(max-width:768px) {
+    .img {
+        width: 100vw;
+        height: 10rem;
+    }
+
+    .t {
+        font-size: 10px;
+    }
+}
+
+.img {
+    width: 100vw;
+    height: 20rem;
+}
+
+.question {
+    color: #fc05b2;
+}
+
+.answer {
+    text-align: left;
+    background-color: rgb(242, 232, 91);
+    color: black;
+}
+
+.pagenotfound {
+    box-shadow: 1em 1em 1em 1em gray;
+    /* -webkit-box-shadow: ; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    color: red;
+    -webkit-text-stroke: 1px navy;
+}

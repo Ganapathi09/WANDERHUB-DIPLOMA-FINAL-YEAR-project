@@ -1,0 +1,25 @@
+.list-block {
+  background-image: linear-gradient(#a1ffce, #faffd1);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 95%;
+}
+
+.list-block-contents {
+  font-family: cursive;
+  height: fit-content;
+  width: auto;
+  color: black;
+  font-weight: bolder;
+  text-shadow: 100%;
+  text-overflow: clip;
+  text-decoration-color: aliceblue;
+}
+
+.list-block-contents:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  transform-box: 3%;
+  transition: ease-in-out;
+  cursor: pointer;
+}

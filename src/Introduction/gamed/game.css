@@ -1,0 +1,46 @@
+.game {
+    border-radius: 2em;
+    border: 2px solid transparent;
+    width: fit-content;
+    min-width: 50%;
+    box-shadow: 5px 5px 15px 10px rgb(38, 34, 34);
+    margin: auto;
+    background-color: #e3ae8f;
+    background-image: linear-gradient(62deg, #ecc6b0 0%, #fef572 100%);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.players {
+    width: 100%;
+    height: 15%;
+    font-size: 15px;
+    float: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.winner1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.box {
+    white-space: nowrap;
+}
+
+#gamebox1, #gamebox2, #gamebox3, #gamebox4, #gamebox5, #gamebox6, #gamebox7, #gamebox8, #gamebox9 {
+    width: 3rem;
+    height: 3rem;
+    justify-content: space-around;
+}
+
+.player-status {
+    white-space: nowrap;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    float: left;
+    margin-top: 30%;
+    font-size: 1.6em;
+}

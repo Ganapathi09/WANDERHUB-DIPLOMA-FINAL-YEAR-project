@@ -1,0 +1,157 @@
+.introduction {
+  display: flex;
+}
+
+.contentinfos {
+  text-align: justify;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#thing2 {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-image: linear-gradient(white, aqua, white);
+  text-align: center;
+  display: block;
+  float: right;
+  width: 80%;
+  height: 10%;
+  min-height: 1rem;
+}
+
+.ant-picker-input .ant-picker-input-active {
+  color: black;
+}
+
+@media (max-width: 768px) {
+
+  #thing2,
+  .hotel-intro {
+    font-size: 12px;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .room-component {
+    flex-direction: column;
+    background: linear-gradient(aqua, white);
+    border: 5px solid aqua;
+    color: black;
+    text-align: justify;
+    display: flex;
+    justify-content: center !important;
+    margin-top: 2rem !important;
+    border-radius: 5px !important;
+  }
+
+  .small-img {
+    height: 50px;
+    width: 100% !important;
+    border-radius: 5px !important;
+  }
+
+  .bigimg {
+    height: 200px;
+    border-radius: 5px !important;
+  }
+
+  .room-info {
+    flex-direction: column;
+  }
+
+  .ant-picker .ant-picker-range {
+    width: fit-content !important;
+  }
+
+  .ant-picker-panels {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-picker-range,
+:where(.css-dev-only-do-not-override-k7429z).ant-picker {
+  width: 100% !important;
+  height: 2rem !important;
+}
+
+.hotel-intro {
+  text-align: right;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+
+.hotel-info {
+  text-align: justify;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.flex-container {
+  background-image: linear-gradient(purple, red);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-box {
+  width: 20%;
+  height: 20%;
+  border-radius: 5px;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+  text-align: center;
+}
+
+
+/* ***** Room Interface design **** */
+.small-img {
+  height: 200px;
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+
+.bigimg {
+  height: 200px;
+  border-radius: 5px !important;
+}
+
+.ant-picker .ant-picker-range {
+  width: 100% !important;
+}
+
+.room-info {
+  flex-direction: column;
+}
+
+.room-component {
+  background: linear-gradient(aqua, white);
+  color: black;
+  text-align: justify;
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+  border: 5px solid aqua;
+  justify-content: center !important;
+  display: flex;
+}
+
+.room-component:hover {
+  border: none;
+  transform: scale(1.05);
+  z-index: 1;
+  transform-box: 2%;
+  transition: ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 2px 20px 4px rgb(40, 35, 35) !important;
+}
